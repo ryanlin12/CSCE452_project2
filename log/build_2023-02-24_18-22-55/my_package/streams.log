@@ -1,0 +1,39 @@
+[0.590s] Invoking command in '/home/ryanlin12/CSCE452_project2/src/my_package': PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/my_package/prefix_override:/home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ryanlin12/CSCE452_project2/build/my_package/build install --record /home/ryanlin12/CSCE452_project2/build/my_package/install.log --single-version-externally-managed
+[0.753s] running egg_info
+[0.755s] creating ../../build/my_package/my_package.egg-info
+[0.756s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.756s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.756s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.757s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.757s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.757s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.759s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.763s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.763s] running build
+[0.763s] running build_py
+[0.763s] creating /home/ryanlin12/CSCE452_project2/build/my_package/build
+[0.763s] creating /home/ryanlin12/CSCE452_project2/build/my_package/build/lib
+[0.763s] creating /home/ryanlin12/CSCE452_project2/build/my_package/build/lib/my_package
+[0.763s] copying my_package/my_node.py -> /home/ryanlin12/CSCE452_project2/build/my_package/build/lib/my_package
+[0.763s] copying my_package/__init__.py -> /home/ryanlin12/CSCE452_project2/build/my_package/build/lib/my_package
+[0.764s] running install
+[0.764s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.764s]   warnings.warn(
+[0.764s] running install_lib
+[0.765s] creating /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package
+[0.765s] copying /home/ryanlin12/CSCE452_project2/build/my_package/build/lib/my_package/my_node.py -> /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package
+[0.765s] copying /home/ryanlin12/CSCE452_project2/build/my_package/build/lib/my_package/__init__.py -> /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package
+[0.766s] byte-compiling /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[0.766s] byte-compiling /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[0.766s] running install_data
+[0.767s] creating /home/ryanlin12/CSCE452_project2/install/my_package/share/ament_index
+[0.767s] creating /home/ryanlin12/CSCE452_project2/install/my_package/share/ament_index/resource_index
+[0.767s] creating /home/ryanlin12/CSCE452_project2/install/my_package/share/ament_index/resource_index/packages
+[0.767s] copying resource/my_package -> /home/ryanlin12/CSCE452_project2/install/my_package/share/ament_index/resource_index/packages
+[0.767s] copying package.xml -> /home/ryanlin12/CSCE452_project2/install/my_package/share/my_package
+[0.767s] running install_egg_info
+[0.768s] Copying ../../build/my_package/my_package.egg-info to /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.769s] running install_scripts
+[0.785s] Installing my_node script to /home/ryanlin12/CSCE452_project2/install/my_package/lib/my_package
+[0.785s] writing list of installed files to '/home/ryanlin12/CSCE452_project2/build/my_package/install.log'
+[0.818s] Invoked command in '/home/ryanlin12/CSCE452_project2/src/my_package' returned '0': PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/my_package/prefix_override:/home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ryanlin12/CSCE452_project2/build/my_package/build install --record /home/ryanlin12/CSCE452_project2/build/my_package/install.log --single-version-externally-managed

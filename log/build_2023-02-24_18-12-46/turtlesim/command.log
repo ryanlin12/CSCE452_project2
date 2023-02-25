@@ -1,0 +1,4 @@
+Invoking command in '/home/ryanlin12/CSCE452_project2/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ryanlin12/CSCE452_project2/build/turtlesim -- -j4 -l4
+Invoked command in '/home/ryanlin12/CSCE452_project2/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ryanlin12/CSCE452_project2/build/turtlesim -- -j4 -l4
+Invoking command in '/home/ryanlin12/CSCE452_project2/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ryanlin12/CSCE452_project2/build/turtlesim
+Invoked command in '/home/ryanlin12/CSCE452_project2/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ryanlin12/CSCE452_project2/build/turtlesim

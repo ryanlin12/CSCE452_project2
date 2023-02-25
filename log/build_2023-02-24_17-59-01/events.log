@@ -1,0 +1,892 @@
+[0.000000] (-) TimerEvent: {}
+[0.001644] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001682] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.031546] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.031603] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/ryanlin12/CSCE452_project2/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/ryanlin12/CSCE452_project2/install/turtlesim'], 'cwd': '/home/ryanlin12/CSCE452_project2/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ryanlin12'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ryanlin12'), ('OLDPWD', '/home/ryanlin12/CSCE452_project2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1379'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ryanlin12'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ryanlin12'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ryanlin12-VirtualBox:@/tmp/.ICE-unix/1347,unix/ryanlin12-VirtualBox:/tmp/.ICE-unix/1347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a601f4bf_4ead_4d24_bfe6_294332c7a70c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VJ5L01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ryanlin12/CSCE452_project2/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100917] (-) TimerEvent: {}
+[0.202615] (-) TimerEvent: {}
+[0.300356] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.302867] (-) TimerEvent: {}
+[0.424238] (-) TimerEvent: {}
+[0.481531] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.503641] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.524709] (-) TimerEvent: {}
+[0.593195] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.598450] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.599670] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.606259] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.610705] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.626288] (-) TimerEvent: {}
+[0.700325] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.705883] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.706166] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.706371] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.728012] (-) TimerEvent: {}
+[0.730139] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.830575] (-) TimerEvent: {}
+[0.885348] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.931813] (-) TimerEvent: {}
+[1.032884] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[1.033082] (-) TimerEvent: {}
+[1.037788] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.129368] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.134962] (-) TimerEvent: {}
+[1.140236] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.159402] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.189913] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.227664] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.238747] (-) TimerEvent: {}
+[1.339657] (-) TimerEvent: {}
+[1.427829] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.444857] (-) TimerEvent: {}
+[1.539993] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.546097] (-) TimerEvent: {}
+[1.547216] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.647427] (-) TimerEvent: {}
+[1.702637] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.726859] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.747664] (-) TimerEvent: {}
+[1.761420] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.784586] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.847761] (-) TimerEvent: {}
+[1.880451] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.881188] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.947947] (-) TimerEvent: {}
+[1.950607] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.951633] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.048614] (-) TimerEvent: {}
+[2.099256] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.155748] (-) TimerEvent: {}
+[2.225062] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.243253] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.263461] (-) TimerEvent: {}
+[2.364360] (-) TimerEvent: {}
+[2.465094] (-) TimerEvent: {}
+[2.522414] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.573487] (-) TimerEvent: {}
+[2.675870] (-) TimerEvent: {}
+[2.776969] (-) TimerEvent: {}
+[2.813527] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.877439] (-) TimerEvent: {}
+[2.937982] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.958390] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.962006] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.978104] (-) TimerEvent: {}
+[2.989813] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.989985] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.990022] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.990057] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.004974] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.073053] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.097983] (-) TimerEvent: {}
+[3.131948] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[3.135209] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/ryanlin12/CSCE452_project2/build/turtlesim\n'}
+[3.147742] (turtlesim) CommandEnded: {'returncode': 0}
+[3.148155] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[3.148191] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ryanlin12/CSCE452_project2/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/home/ryanlin12/CSCE452_project2/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ryanlin12'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ryanlin12'), ('OLDPWD', '/home/ryanlin12/CSCE452_project2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1379'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ryanlin12'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ryanlin12'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ryanlin12-VirtualBox:@/tmp/.ICE-unix/1347,unix/ryanlin12-VirtualBox:/tmp/.ICE-unix/1347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a601f4bf_4ead_4d24_bfe6_294332c7a70c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VJ5L01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ryanlin12/CSCE452_project2/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.190935] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.199829] (-) TimerEvent: {}
+[3.201663] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.208531] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[3.348325] (-) TimerEvent: {}
+[3.435010] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[3.437461] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[3.437754] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[3.437828] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[3.437890] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[3.437947] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.451441] (-) TimerEvent: {}
+[3.458034] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.458210] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[3.478412] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[3.551591] (-) TimerEvent: {}
+[3.658357] (-) TimerEvent: {}
+[3.761238] (-) TimerEvent: {}
+[3.861646] (-) TimerEvent: {}
+[3.962831] (-) TimerEvent: {}
+[4.063467] (-) TimerEvent: {}
+[4.168284] (-) TimerEvent: {}
+[4.175867] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[4.185161] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.194030] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.194177] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.213236] (turtlesim) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[4.371638] (-) TimerEvent: {}
+[4.393244] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[4.440863] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[4.483830] (-) TimerEvent: {}
+[4.495924] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[4.548281] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[4.593039] (-) TimerEvent: {}
+[4.690312] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[4.698583] (-) TimerEvent: {}
+[4.800406] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[4.801025] (-) TimerEvent: {}
+[4.801338] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.856306] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[4.902957] (-) TimerEvent: {}
+[4.908688] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[4.987433] (turtlesim) StdoutLine: {'line': b'[ 15%] Built target turtlesim__rosidl_generator_c\n'}
+[5.000651] (turtlesim) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.006645] (-) TimerEvent: {}
+[5.109511] (-) TimerEvent: {}
+[5.142489] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.212293] (-) TimerEvent: {}
+[5.213896] (turtlesim) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.314744] (-) TimerEvent: {}
+[5.419735] (-) TimerEvent: {}
+[5.533061] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[5.533224] (-) TimerEvent: {}
+[5.641787] (-) TimerEvent: {}
+[5.745457] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[5.745621] (-) TimerEvent: {}
+[5.765241] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[5.792991] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[5.830337] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[5.991189] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[5.992018] (-) TimerEvent: {}
+[6.096997] (-) TimerEvent: {}
+[6.134802] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[6.181766] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[6.232782] (-) TimerEvent: {}
+[6.285189] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[6.335667] (-) TimerEvent: {}
+[6.348597] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[6.650125] (-) TimerEvent: {}
+[6.779039] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[6.779285] (-) TimerEvent: {}
+[6.796623] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[6.941399] (-) TimerEvent: {}
+[6.957656] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[6.980863] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[7.211665] (-) TimerEvent: {}
+[7.286092] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[7.418853] (-) TimerEvent: {}
+[7.659071] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[7.662894] (-) TimerEvent: {}
+[7.756638] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[7.765103] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[7.765347] (-) TimerEvent: {}
+[7.766531] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[8.175522] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.177384] (-) TimerEvent: {}
+[8.327958] (turtlesim) StdoutLine: {'line': b'[ 38%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[8.330078] (-) TimerEvent: {}
+[8.344622] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[8.357473] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.429071] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[8.430853] (-) TimerEvent: {}
+[8.596145] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[8.596407] (-) TimerEvent: {}
+[8.925433] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[8.925685] (-) TimerEvent: {}
+[9.030992] (-) TimerEvent: {}
+[9.115553] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.132502] (-) TimerEvent: {}
+[9.327383] (-) TimerEvent: {}
+[9.380207] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.428385] (-) TimerEvent: {}
+[9.561153] (-) TimerEvent: {}
+[9.667645] (-) TimerEvent: {}
+[9.685558] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[9.904454] (-) TimerEvent: {}
+[9.952347] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[10.203156] (-) TimerEvent: {}
+[10.244050] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[10.420709] (-) TimerEvent: {}
+[10.442542] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[10.499838] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[10.533837] (-) TimerEvent: {}
+[10.564530] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[10.636404] (-) TimerEvent: {}
+[10.662517] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[10.743164] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[10.743896] (-) TimerEvent: {}
+[10.885639] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[10.886285] (-) TimerEvent: {}
+[10.976574] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.992250] (-) TimerEvent: {}
+[11.006216] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[11.076421] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[11.100240] (-) TimerEvent: {}
+[11.172391] (turtlesim) StdoutLine: {'line': b'[ 57%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[11.177166] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[11.197300] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.200711] (-) TimerEvent: {}
+[11.218186] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.258623] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.303606] (-) TimerEvent: {}
+[11.333585] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.400516] (turtlesim) StdoutLine: {'line': b'[ 62%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[11.429159] (-) TimerEvent: {}
+[11.449219] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[11.503641] (turtlesim) StdoutLine: {'line': b'[ 63%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[11.540444] (-) TimerEvent: {}
+[11.614601] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[11.650778] (-) TimerEvent: {}
+[11.676491] (turtlesim) StdoutLine: {'line': b'[ 64%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[11.772332] (-) TimerEvent: {}
+[11.785616] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[11.877369] (-) TimerEvent: {}
+[11.961082] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[11.988766] (-) TimerEvent: {}
+[12.214799] (-) TimerEvent: {}
+[12.318586] (-) TimerEvent: {}
+[12.420010] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[12.420351] (-) TimerEvent: {}
+[12.521575] (-) TimerEvent: {}
+[12.540990] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[12.625166] (-) TimerEvent: {}
+[12.686448] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[12.728388] (-) TimerEvent: {}
+[12.837726] (-) TimerEvent: {}
+[12.851823] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[12.938860] (-) TimerEvent: {}
+[12.984164] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[13.047777] (-) TimerEvent: {}
+[13.119583] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[13.148122] (-) TimerEvent: {}
+[13.271005] (-) TimerEvent: {}
+[13.293351] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[13.412195] (-) TimerEvent: {}
+[13.496705] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[13.513711] (-) TimerEvent: {}
+[13.559599] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.753753] (-) TimerEvent: {}
+[13.760886] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target turtlesim__rosidl_typesupport_c\n'}
+[13.872423] (-) TimerEvent: {}
+[13.874261] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[14.396285] (-) TimerEvent: {}
+[14.577028] (-) TimerEvent: {}
+[15.120272] (-) TimerEvent: {}
+[15.224035] (-) TimerEvent: {}
+[15.327685] (-) TimerEvent: {}
+[15.436735] (-) TimerEvent: {}
+[15.547813] (-) TimerEvent: {}
+[15.693490] (-) TimerEvent: {}
+[15.794684] (-) TimerEvent: {}
+[15.900154] (-) TimerEvent: {}
+[16.023481] (-) TimerEvent: {}
+[16.142778] (-) TimerEvent: {}
+[16.345387] (-) TimerEvent: {}
+[16.536338] (-) TimerEvent: {}
+[16.677249] (-) TimerEvent: {}
+[16.921869] (-) TimerEvent: {}
+[17.261154] (-) TimerEvent: {}
+[17.426642] (-) TimerEvent: {}
+[17.718335] (-) TimerEvent: {}
+[17.869638] (-) TimerEvent: {}
+[18.089426] (-) TimerEvent: {}
+[18.272230] (-) TimerEvent: {}
+[18.418392] (-) TimerEvent: {}
+[18.588121] (-) TimerEvent: {}
+[18.696356] (-) TimerEvent: {}
+[18.801185] (-) TimerEvent: {}
+[19.044964] (-) TimerEvent: {}
+[19.191365] (-) TimerEvent: {}
+[19.440203] (-) TimerEvent: {}
+[19.610770] (-) TimerEvent: {}
+[19.720953] (-) TimerEvent: {}
+[19.839672] (-) TimerEvent: {}
+[19.993940] (-) TimerEvent: {}
+[20.148274] (-) TimerEvent: {}
+[20.255963] (-) TimerEvent: {}
+[20.373453] (-) TimerEvent: {}
+[20.477989] (-) TimerEvent: {}
+[20.587133] (-) TimerEvent: {}
+[20.727271] (-) TimerEvent: {}
+[20.874707] (-) TimerEvent: {}
+[21.020736] (-) TimerEvent: {}
+[21.211806] (-) TimerEvent: {}
+[21.317129] (-) TimerEvent: {}
+[21.499986] (-) TimerEvent: {}
+[21.604686] (-) TimerEvent: {}
+[21.712296] (-) TimerEvent: {}
+[22.083453] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[22.107123] (-) TimerEvent: {}
+[22.445236] (-) TimerEvent: {}
+[22.561117] (-) TimerEvent: {}
+[22.667759] (-) TimerEvent: {}
+[22.770389] (-) TimerEvent: {}
+[22.871142] (-) TimerEvent: {}
+[22.972581] (-) TimerEvent: {}
+[23.074248] (-) TimerEvent: {}
+[23.175190] (-) TimerEvent: {}
+[23.276291] (-) TimerEvent: {}
+[23.377185] (-) TimerEvent: {}
+[23.477970] (-) TimerEvent: {}
+[23.578998] (-) TimerEvent: {}
+[23.681417] (-) TimerEvent: {}
+[23.782450] (-) TimerEvent: {}
+[23.884863] (-) TimerEvent: {}
+[23.985696] (-) TimerEvent: {}
+[24.090000] (-) TimerEvent: {}
+[24.191769] (-) TimerEvent: {}
+[24.292539] (-) TimerEvent: {}
+[24.394053] (-) TimerEvent: {}
+[24.495840] (-) TimerEvent: {}
+[24.596648] (-) TimerEvent: {}
+[24.703798] (-) TimerEvent: {}
+[24.806722] (-) TimerEvent: {}
+[24.911554] (-) TimerEvent: {}
+[25.012411] (-) TimerEvent: {}
+[25.113656] (-) TimerEvent: {}
+[25.214645] (-) TimerEvent: {}
+[25.316294] (-) TimerEvent: {}
+[25.419601] (-) TimerEvent: {}
+[25.662420] (-) TimerEvent: {}
+[26.100293] (-) TimerEvent: {}
+[26.207076] (-) TimerEvent: {}
+[26.308364] (-) TimerEvent: {}
+[26.412107] (-) TimerEvent: {}
+[26.513457] (-) TimerEvent: {}
+[26.619689] (-) TimerEvent: {}
+[26.722775] (-) TimerEvent: {}
+[26.853349] (-) TimerEvent: {}
+[26.983914] (-) TimerEvent: {}
+[27.317140] (-) TimerEvent: {}
+[27.366043] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[27.417377] (-) TimerEvent: {}
+[27.518508] (-) TimerEvent: {}
+[27.635107] (-) TimerEvent: {}
+[27.816175] (-) TimerEvent: {}
+[27.918113] (-) TimerEvent: {}
+[28.030605] (-) TimerEvent: {}
+[28.131796] (-) TimerEvent: {}
+[28.244121] (-) TimerEvent: {}
+[28.273408] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[28.338699] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim\n'}
+[28.344539] (-) TimerEvent: {}
+[28.405709] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[28.444715] (-) TimerEvent: {}
+[28.546215] (-) TimerEvent: {}
+[28.659482] (-) TimerEvent: {}
+[28.771816] (-) TimerEvent: {}
+[28.872568] (-) TimerEvent: {}
+[29.004385] (-) TimerEvent: {}
+[29.117077] (-) TimerEvent: {}
+[29.218444] (-) TimerEvent: {}
+[29.319773] (-) TimerEvent: {}
+[29.420386] (-) TimerEvent: {}
+[29.521084] (-) TimerEvent: {}
+[29.621855] (-) TimerEvent: {}
+[29.723958] (-) TimerEvent: {}
+[29.824579] (-) TimerEvent: {}
+[29.929337] (-) TimerEvent: {}
+[30.125623] (-) TimerEvent: {}
+[30.238304] (-) TimerEvent: {}
+[30.429010] (-) TimerEvent: {}
+[31.448013] (-) TimerEvent: {}
+[32.146227] (-) TimerEvent: {}
+[32.271395] (-) TimerEvent: {}
+[32.379500] (-) TimerEvent: {}
+[32.647608] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__py\n'}
+[32.650136] (-) TimerEvent: {}
+[32.702766] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[33.256127] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[33.257756] (-) TimerEvent: {}
+[33.370835] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[33.371059] (-) TimerEvent: {}
+[33.463575] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[33.630958] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[33.631312] (-) TimerEvent: {}
+[33.803563] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[33.803816] (-) TimerEvent: {}
+[33.978653] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[33.978901] (-) TimerEvent: {}
+[34.147932] (turtlesim) StdoutLine: {'line': b'[ 86%] Built target mimic\n'}
+[34.148289] (-) TimerEvent: {}
+[34.165549] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[34.316046] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[34.316305] (-) TimerEvent: {}
+[34.332683] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[34.448161] (-) TimerEvent: {}
+[34.556496] (-) TimerEvent: {}
+[34.663790] (-) TimerEvent: {}
+[34.772109] (-) TimerEvent: {}
+[34.791877] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[34.879795] (-) TimerEvent: {}
+[34.983911] (-) TimerEvent: {}
+[35.004030] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_generator_py\n'}
+[35.044374] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[35.088169] (-) TimerEvent: {}
+[35.191692] (-) TimerEvent: {}
+[35.295591] (-) TimerEvent: {}
+[35.400158] (-) TimerEvent: {}
+[35.503809] (-) TimerEvent: {}
+[35.604321] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[35.604558] (-) TimerEvent: {}
+[35.705252] (-) TimerEvent: {}
+[36.417102] (-) TimerEvent: {}
+[36.420053] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target draw_square\n'}
+[37.446840] (-) TimerEvent: {}
+[37.489724] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[37.550249] (-) TimerEvent: {}
+[37.804786] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[37.806318] (-) TimerEvent: {}
+[37.892104] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[37.906591] (-) TimerEvent: {}
+[37.975205] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[38.230857] (-) TimerEvent: {}
+[38.298712] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[38.414172] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[38.424448] (-) TimerEvent: {}
+[38.480014] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[38.732609] (-) TimerEvent: {}
+[38.817121] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[38.833105] (-) TimerEvent: {}
+[39.246291] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[39.246520] (-) TimerEvent: {}
+[39.380421] (-) TimerEvent: {}
+[40.435917] (-) TimerEvent: {}
+[41.424274] (-) TimerEvent: {}
+[41.667736] (-) TimerEvent: {}
+[42.424862] (-) TimerEvent: {}
+[43.423483] (-) TimerEvent: {}
+[43.524748] (-) TimerEvent: {}
+[43.625365] (-) TimerEvent: {}
+[43.726257] (-) TimerEvent: {}
+[43.827601] (-) TimerEvent: {}
+[43.933247] (-) TimerEvent: {}
+[44.034867] (-) TimerEvent: {}
+[44.143478] (-) TimerEvent: {}
+[44.252677] (-) TimerEvent: {}
+[44.367084] (-) TimerEvent: {}
+[44.468808] (-) TimerEvent: {}
+[44.573038] (-) TimerEvent: {}
+[44.676399] (-) TimerEvent: {}
+[44.777944] (-) TimerEvent: {}
+[44.879637] (-) TimerEvent: {}
+[44.985420] (-) TimerEvent: {}
+[45.087888] (-) TimerEvent: {}
+[45.189915] (-) TimerEvent: {}
+[45.290728] (-) TimerEvent: {}
+[45.403933] (-) TimerEvent: {}
+[45.511621] (-) TimerEvent: {}
+[45.612494] (-) TimerEvent: {}
+[45.718858] (-) TimerEvent: {}
+[45.820076] (-) TimerEvent: {}
+[45.921587] (-) TimerEvent: {}
+[46.033184] (-) TimerEvent: {}
+[46.135349] (-) TimerEvent: {}
+[46.236752] (-) TimerEvent: {}
+[46.338220] (-) TimerEvent: {}
+[46.440435] (-) TimerEvent: {}
+[46.549610] (-) TimerEvent: {}
+[46.651699] (-) TimerEvent: {}
+[46.777435] (-) TimerEvent: {}
+[46.880146] (-) TimerEvent: {}
+[46.980747] (-) TimerEvent: {}
+[47.086071] (-) TimerEvent: {}
+[47.187000] (-) TimerEvent: {}
+[47.303203] (-) TimerEvent: {}
+[47.405104] (-) TimerEvent: {}
+[47.511876] (-) TimerEvent: {}
+[47.614354] (-) TimerEvent: {}
+[47.715585] (-) TimerEvent: {}
+[47.816094] (-) TimerEvent: {}
+[47.919077] (-) TimerEvent: {}
+[48.022111] (-) TimerEvent: {}
+[48.125176] (-) TimerEvent: {}
+[48.227902] (-) TimerEvent: {}
+[48.331985] (-) TimerEvent: {}
+[48.438714] (-) TimerEvent: {}
+[48.540339] (-) TimerEvent: {}
+[48.669533] (-) TimerEvent: {}
+[48.782382] (-) TimerEvent: {}
+[48.884800] (-) TimerEvent: {}
+[49.004910] (-) TimerEvent: {}
+[49.111662] (-) TimerEvent: {}
+[49.212966] (-) TimerEvent: {}
+[49.338799] (-) TimerEvent: {}
+[49.444380] (-) TimerEvent: {}
+[49.546603] (-) TimerEvent: {}
+[49.647420] (-) TimerEvent: {}
+[50.225157] (-) TimerEvent: {}
+[50.249884] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[50.379850] (-) TimerEvent: {}
+[50.514221] (-) TimerEvent: {}
+[50.615727] (-) TimerEvent: {}
+[50.718069] (-) TimerEvent: {}
+[50.821778] (-) TimerEvent: {}
+[50.939689] (-) TimerEvent: {}
+[51.042175] (-) TimerEvent: {}
+[51.142870] (-) TimerEvent: {}
+[51.244258] (-) TimerEvent: {}
+[51.346250] (-) TimerEvent: {}
+[51.448879] (-) TimerEvent: {}
+[51.551320] (-) TimerEvent: {}
+[51.652480] (-) TimerEvent: {}
+[51.754589] (-) TimerEvent: {}
+[51.856146] (-) TimerEvent: {}
+[51.959428] (-) TimerEvent: {}
+[52.093216] (-) TimerEvent: {}
+[52.195037] (-) TimerEvent: {}
+[52.297260] (-) TimerEvent: {}
+[52.400573] (-) TimerEvent: {}
+[52.503513] (-) TimerEvent: {}
+[52.601241] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[52.603844] (-) TimerEvent: {}
+[52.711510] (-) TimerEvent: {}
+[52.799213] (turtlesim) CommandEnded: {'returncode': 0}
+[52.952516] (-) TimerEvent: {}
+[53.059509] (-) TimerEvent: {}
+[53.164382] (-) TimerEvent: {}
+[53.272112] (-) TimerEvent: {}
+[53.372547] (-) TimerEvent: {}
+[53.473009] (-) TimerEvent: {}
+[53.553254] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[53.581223] (-) TimerEvent: {}
+[53.697552] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ryanlin12/CSCE452_project2/build/turtlesim'], 'cwd': '/home/ryanlin12/CSCE452_project2/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ryanlin12'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ryanlin12'), ('OLDPWD', '/home/ryanlin12/CSCE452_project2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1379'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ryanlin12'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ryanlin12'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ryanlin12-VirtualBox:@/tmp/.ICE-unix/1347,unix/ryanlin12-VirtualBox:/tmp/.ICE-unix/1347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a601f4bf_4ead_4d24_bfe6_294332c7a70c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VJ5L01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ryanlin12/CSCE452_project2/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[53.706099] (-) TimerEvent: {}
+[53.724221] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[53.724693] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[53.725497] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim\n'}
+[53.728292] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[53.728420] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[53.728470] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[53.728586] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[53.728701] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[53.728752] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[53.728800] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[53.728914] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[53.729081] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[53.729195] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[53.729246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[53.729395] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[53.729447] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[53.729493] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[53.729539] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[53.729653] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[53.729704] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[53.729865] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[53.729917] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[53.729965] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[53.730108] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[53.730161] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[53.730208] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[53.731321] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[53.733157] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[53.733969] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[53.734053] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[53.743039] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[53.743301] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[53.743718] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[53.743786] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[53.743836] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[53.745170] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[53.745257] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[53.746268] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[53.746405] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[53.747397] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[53.747484] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[53.748142] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[53.748537] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[53.748863] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[53.748935] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[53.748984] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[53.749032] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[53.749668] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[53.749881] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[53.749955] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[53.752640] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[53.754240] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[53.755253] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[53.755637] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[53.755731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim\n'}
+[53.756669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[53.757473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[53.758192] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[53.759033] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[53.759799] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[53.760802] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[53.761579] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[53.762285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[53.762876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[53.764003] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[53.764933] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[53.765644] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[53.766427] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[53.767160] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[53.768015] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[53.768920] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[53.770095] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[53.770178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim\n'}
+[53.770600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[53.770676] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[53.770727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[53.770924] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[53.771125] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[53.771183] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[53.771230] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[53.771280] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[53.771647] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[53.771996] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[53.772068] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[53.772318] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[53.772563] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[53.773156] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[53.773538] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[53.773784] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[53.773838] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[53.773893] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[53.773941] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[53.773988] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[53.774036] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[53.774082] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[53.774130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[53.774177] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[53.774224] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[53.774380] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[53.774441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[53.774601] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[53.774655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[53.774802] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[53.774856] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[53.774903] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[53.774950] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[53.775007] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[53.775053] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[53.775099] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[53.775144] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[53.775194] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[53.775956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim\n'}
+[53.776985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[53.777617] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[53.778613] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.779716] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[53.780499] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.781310] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.782018] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.782857] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.783630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[53.784458] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[53.785204] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[53.786000] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.787260] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[53.788080] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[53.788889] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.789385] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[53.790019] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.790695] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[53.791685] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[53.795353] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[53.795986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim\n'}
+[53.796300] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[53.797662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[53.798570] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[53.799775] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[53.803609] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[53.804212] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[53.804835] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[53.805807] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[53.806837] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[53.806919] (-) TimerEvent: {}
+[53.807831] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[53.808784] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[53.809571] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[53.810410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[53.811197] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[53.812062] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[53.813624] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[53.814450] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[53.815196] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[53.816007] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[53.816818] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[53.818037] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[53.818870] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[53.819793] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[53.820695] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[53.821121] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[53.821307] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[53.821907] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[53.822702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim\n'}
+[53.823467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[53.824223] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[53.824984] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.825774] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.826576] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[53.827505] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.828261] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.829063] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[53.829957] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[53.830798] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[53.831598] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.832554] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[53.833439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[53.834194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[53.834996] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.835915] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[53.837435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[53.838245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[53.839020] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[53.839791] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[53.840618] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.841408] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.842279] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[53.844807] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[53.845003] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[53.846153] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[53.846447] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[53.847463] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[53.850585] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info\n'}
+[53.851600] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/SOURCES.txt\n'}
+[53.853101] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/top_level.txt\n'}
+[53.854644] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/PKG-INFO\n'}
+[53.855809] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/dependency_links.txt\n'}
+[53.858004] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[53.858302] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[53.858589] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[53.858863] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[53.859066] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[53.859238] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[53.859294] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[53.859442] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[53.859505] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[53.859555] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[53.859710] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[53.859763] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[53.860175] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[53.860952] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[53.861197] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[53.861266] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[53.861393] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[53.861519] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.861781] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[53.861853] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.861912] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[53.861960] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[53.862008] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[53.862056] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[53.862106] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[53.862153] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[53.862199] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[53.862246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[53.862293] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[53.862340] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.862387] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[53.907481] (-) TimerEvent: {}
+[53.918663] (turtlesim) StdoutLine: {'line': b"Listing '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[53.918852] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[53.918906] (turtlesim) StdoutLine: {'line': b"Listing '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[53.918953] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[53.919000] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[53.919048] (turtlesim) StdoutLine: {'line': b"Listing '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[53.919094] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[53.919144] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[53.919191] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[53.919238] (turtlesim) StdoutLine: {'line': b"Listing '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[53.919285] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[53.919332] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[53.919388] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[53.919436] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[53.919482] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[53.919529] (turtlesim) StdoutLine: {'line': b"Compiling '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[53.923660] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.924169] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[53.924271] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.924654] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[53.924755] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.925106] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[53.925202] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[53.930000] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[53.930542] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[53.930816] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[53.931488] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[53.932032] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[53.932113] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[53.932163] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[53.932211] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[53.932260] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[53.932307] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[53.932900] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[53.933818] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[53.934528] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[53.935661] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[53.936708] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[53.937346] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[53.938080] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[53.938869] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[53.939850] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[53.940638] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[53.941651] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[53.943015] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[53.943530] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[53.944015] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[53.945443] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[53.946714] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[53.947891] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[53.949291] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[53.956129] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[53.956347] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[53.957943] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[53.958128] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/draw_square\n'}
+[53.961730] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[53.961930] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/mimic\n'}
+[53.965177] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[53.965380] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images\n'}
+[53.967159] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[53.968457] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[53.969726] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[53.971074] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[53.972314] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[53.973435] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[53.974709] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[53.975931] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[53.977151] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[53.978454] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/launch\n'}
+[53.980361] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[53.983124] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[53.985629] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[53.991292] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[53.992800] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[53.994077] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[53.995553] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[53.997354] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[53.998920] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[54.000463] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[54.001958] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[54.003295] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/package.dsv\n'}
+[54.005538] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[54.010043] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[54.010162] (-) TimerEvent: {}
+[54.011722] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[54.013037] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[54.014235] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[54.015641] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[54.016893] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[54.018228] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[54.019501] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[54.021018] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[54.022266] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[54.023563] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[54.024887] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[54.026082] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[54.027379] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[54.028711] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[54.030068] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[54.031305] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[54.032501] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[54.034574] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[54.036855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[54.039031] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[54.041039] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[54.042246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[54.043467] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[54.045844] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[54.047032] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[54.050192] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/package.xml\n'}
+[54.072012] (turtlesim) CommandEnded: {'returncode': 0}
+[54.136047] (-) TimerEvent: {}
+[54.245320] (-) TimerEvent: {}
+[54.352847] (-) TimerEvent: {}
+[54.459192] (-) TimerEvent: {}
+[54.592515] (-) TimerEvent: {}
+[54.694000] (-) TimerEvent: {}
+[54.796402] (-) TimerEvent: {}
+[54.896828] (-) TimerEvent: {}
+[54.998128] (-) TimerEvent: {}
+[55.099525] (-) TimerEvent: {}
+[55.220680] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[55.227202] (-) TimerEvent: {}
+[55.227418] (-) EventReactorShutdown: {}

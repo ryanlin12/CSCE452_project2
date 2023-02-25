@@ -1,0 +1,355 @@
+[0.028s] Invoking command in '/home/ryanlin12/CSCE452_project2/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ryanlin12/CSCE452_project2/build/turtlesim -- -j4 -l4
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c[0m
+[0.188s] [  1%] Built target turtlesim__cpp
+[0.202s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.208s] [ 11%] Built target ament_cmake_python_copy_turtlesim
+[0.229s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[0.239s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[0.257s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[0.257s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c[0m
+[0.259s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[0.265s] [ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.273s] [ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.280s] [ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.293s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c[0m
+[0.298s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c[0m
+[0.299s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[0.313s] [ 61%] Built target turtlesim__rosidl_typesupport_c
+[0.313s] [ 71%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.328s] [35m[1mConsolidate compiler generated dependencies of target turtle_teleop_key[0m
+[0.328s] [35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[0.341s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[0.348s] [ 74%] Built target draw_square
+[0.349s] [ 76%] Built target turtle_teleop_key
+[0.369s] [35m[1mConsolidate compiler generated dependencies of target mimic[0m
+[0.371s] [ 76%] Built target turtlesim
+[0.387s] [ 78%] Built target mimic
+[0.392s] [ 79%] Built target turtlesim__py
+[0.404s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py[0m
+[0.422s] [ 88%] Built target turtlesim__rosidl_generator_py
+[0.434s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext[0m
+[0.435s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.447s] [ 92%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.448s] [ 92%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.459s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext[0m
+[0.473s] [ 94%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.509s] running egg_info
+[0.509s] writing turtlesim.egg-info/PKG-INFO
+[0.510s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.510s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.515s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.515s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.539s] [ 94%] Built target ament_cmake_python_build_turtlesim_egg
+[9.266s] [ 95%] [32m[1mLinking CXX executable turtlesim_node[0m
+[11.181s] [100%] Built target turtlesim_node
+[11.203s] Invoked command in '/home/ryanlin12/CSCE452_project2/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ryanlin12/CSCE452_project2/build/turtlesim -- -j4 -l4
+[11.733s] Invoking command in '/home/ryanlin12/CSCE452_project2/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ryanlin12/CSCE452_project2/build/turtlesim
+[11.743s] -- Install configuration: ""
+[11.747s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[11.747s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim
+[11.747s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv
+[11.747s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[11.748s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[11.748s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[11.748s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[11.748s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[11.748s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[11.749s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[11.749s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[11.749s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[11.749s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[11.749s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[11.749s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[11.750s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[11.750s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[11.750s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[11.750s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[11.751s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[11.751s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[11.751s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[11.751s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[11.751s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[11.751s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[11.752s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[11.752s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[11.752s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[11.752s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[11.752s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action
+[11.753s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[11.753s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[11.753s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[11.753s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[11.754s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[11.754s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[11.754s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg
+[11.754s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[11.754s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[11.754s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[11.754s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/library_path.sh
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[11.755s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[11.756s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[11.757s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[11.758s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[11.759s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[11.760s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[11.761s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[11.762s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info
+[11.762s] -- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/SOURCES.txt
+[11.762s] -- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/top_level.txt
+[11.762s] -- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/PKG-INFO
+[11.763s] -- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/dependency_links.txt
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.763s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.764s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[11.764s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[11.764s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[11.764s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[11.764s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[11.764s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[11.764s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[11.764s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[11.764s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[11.764s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.764s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[11.785s] Listing '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[11.785s] Listing '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[11.785s] Listing '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[11.785s] Listing '/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[11.789s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.790s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.790s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.790s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[11.790s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[11.790s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/msg/Color.idl
+[11.790s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/msg/Pose.idl
+[11.790s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Kill.idl
+[11.790s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[11.790s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/msg/Color.msg
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/msg/Pose.msg
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Kill.srv
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[11.791s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[11.792s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[11.792s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[11.792s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[11.792s] -- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/turtlesim_node
+[11.800s] -- Set runtime path of "/home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[11.800s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[11.801s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/draw_square
+[11.801s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/lib/turtlesim/mimic
+[11.801s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images
+[11.801s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/galactic.png
+[11.801s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/rolling.png
+[11.801s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/bouncy.png
+[11.801s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/foxy.png
+[11.801s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/ardent.png
+[11.801s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/humble.png
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/crystal.png
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/dashing.png
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/images/eloquent.png
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/launch
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/path.sh
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/environment/path.dsv
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/local_setup.bash
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/local_setup.sh
+[11.802s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/local_setup.zsh
+[11.803s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/local_setup.dsv
+[11.803s] -- Installing: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/package.dsv
+[11.803s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[11.803s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[11.803s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[11.803s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[11.803s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.803s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[11.804s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[11.805s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.805s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.805s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[11.805s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[11.805s] -- Up-to-date: /home/ryanlin12/CSCE452_project2/install/turtlesim/share/turtlesim/package.xml
+[11.815s] Invoked command in '/home/ryanlin12/CSCE452_project2/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ryanlin12/CSCE452_project2/build/turtlesim
