@@ -7,7 +7,7 @@ There are two packages in this workspace. One is called "my_package" which is th
 
 2. AFTER MAKING CHANGES TO CODE: Go to project's root directory (~/CSCE452_project2/) and build by running "colcon build --packages-select (package)" (my_package for pubsub or py_srvcli for srvcli)
 
-3. TO RUN: After building, go to a NEW TERMINAL and cd to the project's root directory and then source by running "<. install/setup.bash>". To run the publisher: "ros2 run my_package talker". To run the subscriber: "ros2 run my_package listener". To run service: "ros2 run py_srvcli service". To run client: "ros2 run py_srvcli client"
+3. TO RUN: After building, go to a NEW TERMINAL and cd to the project's root directory and then source by running ". install/setup.bash". To run the publisher: "ros2 run my_package talker". To run the subscriber: "ros2 run my_package listener". To run service: "ros2 run py_srvcli service". To run client: "ros2 run py_srvcli client"
 
 4. Go to ~/CSCE452_project2/src/my_package/my_package to access the publisher/subscriber nodes
 
