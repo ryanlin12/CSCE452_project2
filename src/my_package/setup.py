@@ -15,12 +15,14 @@ setup(
     zip_safe=True,
     maintainer='ryanlin12',
     maintainer_email='ryanlin12@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Project 2 Code',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_node = my_package.my_node:main'
+            'my_node = my_package.my_node:main',
+            'talker = my_package.publisher_member_function:main',
+            'listener = my_package.subscriber_member_function:main',
         ],
     },
 )
