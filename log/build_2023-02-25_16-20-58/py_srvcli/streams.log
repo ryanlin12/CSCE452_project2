@@ -1,0 +1,43 @@
+[0.713s] Invoking command in '/home/ryanlin12/CSCE452_project2/src/py_srvcli': PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/py_srvcli/prefix_override:/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ryanlin12/CSCE452_project2/build/py_srvcli/build install --record /home/ryanlin12/CSCE452_project2/build/py_srvcli/install.log --single-version-externally-managed
+[0.984s] running egg_info
+[0.985s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[0.985s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.986s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.986s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.986s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.986s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.986s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.989s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.991s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.991s] running build
+[0.992s] running build_py
+[0.992s] creating /home/ryanlin12/CSCE452_project2/build/py_srvcli/build
+[0.992s] creating /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib
+[0.992s] creating /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli
+[0.992s] copying py_srvcli/client_member_function.py -> /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli
+[0.993s] copying py_srvcli/service_member_function.py -> /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli
+[0.993s] copying py_srvcli/__init__.py -> /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli
+[0.994s] running install
+[0.994s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.994s]   warnings.warn(
+[0.994s] running install_lib
+[0.996s] creating /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.997s] copying /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.997s] copying /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.998s] copying /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.998s] byte-compiling /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[0.999s] byte-compiling /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[1.000s] byte-compiling /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[1.000s] running install_data
+[1.001s] creating /home/ryanlin12/CSCE452_project2/install/py_srvcli/share/ament_index
+[1.002s] creating /home/ryanlin12/CSCE452_project2/install/py_srvcli/share/ament_index/resource_index
+[1.002s] creating /home/ryanlin12/CSCE452_project2/install/py_srvcli/share/ament_index/resource_index/packages
+[1.002s] copying resource/py_srvcli -> /home/ryanlin12/CSCE452_project2/install/py_srvcli/share/ament_index/resource_index/packages
+[1.002s] copying package.xml -> /home/ryanlin12/CSCE452_project2/install/py_srvcli/share/py_srvcli
+[1.003s] running install_egg_info
+[1.005s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.006s] running install_scripts
+[1.044s] Installing client script to /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli
+[1.044s] Installing service script to /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli
+[1.045s] writing list of installed files to '/home/ryanlin12/CSCE452_project2/build/py_srvcli/install.log'
+[1.085s] Invoked command in '/home/ryanlin12/CSCE452_project2/src/py_srvcli' returned '0': PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/py_srvcli/prefix_override:/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ryanlin12/CSCE452_project2/build/py_srvcli/build install --record /home/ryanlin12/CSCE452_project2/build/py_srvcli/install.log --single-version-externally-managed
