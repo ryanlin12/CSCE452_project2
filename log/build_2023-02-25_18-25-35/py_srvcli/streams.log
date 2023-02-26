@@ -1,0 +1,27 @@
+[0.580s] Invoking command in '/home/ryanlin12/CSCE452_project2/src/py_srvcli': AMENT_PREFIX_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim LD_LIBRARY_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/py_srvcli/prefix_override:/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages:/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ryanlin12/CSCE452_project2/build/py_srvcli/build install --record /home/ryanlin12/CSCE452_project2/build/py_srvcli/install.log --single-version-externally-managed
+[0.793s] running egg_info
+[0.795s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.795s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.795s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.796s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.797s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.799s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.802s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.802s] running build
+[0.802s] running build_py
+[0.803s] copying py_srvcli/service_member_function.py -> /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli
+[0.803s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.803s]   warnings.warn(
+[0.804s] running install
+[0.804s] running install_lib
+[0.805s] copying /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.806s] byte-compiling /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[0.807s] running install_data
+[0.807s] running install_egg_info
+[0.808s] removing '/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[0.809s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.810s] running install_scripts
+[0.830s] Installing client script to /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli
+[0.831s] Installing service script to /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli
+[0.831s] writing list of installed files to '/home/ryanlin12/CSCE452_project2/build/py_srvcli/install.log'
+[0.861s] Invoked command in '/home/ryanlin12/CSCE452_project2/src/py_srvcli' returned '0': AMENT_PREFIX_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim LD_LIBRARY_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/py_srvcli/prefix_override:/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages:/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ryanlin12/CSCE452_project2/build/py_srvcli/build install --record /home/ryanlin12/CSCE452_project2/build/py_srvcli/install.log --single-version-externally-managed

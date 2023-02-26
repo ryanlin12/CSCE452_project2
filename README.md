@@ -12,3 +12,6 @@ There are two packages in this workspace. One is called "my_package" which is th
 4. Go to ~/CSCE452_project2/src/my_package/my_package to access the publisher/subscriber nodes
 
 5. Go to ~/CSCE452_project2/src/py_srvcli/py_srvcli to access the service/client noes
+
+To run turtlesim: ros2 run turtlesim turtlesim_node
+To run teleop_key: ros2 run turtlesim turtle_teleop_key
