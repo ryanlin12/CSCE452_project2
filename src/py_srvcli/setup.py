@@ -20,8 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'service = py_srvcli.service_member_function:main',
-            'client = py_srvcli.client_member_function:main',
+            'set_color_service = py_srvcli.set_color_service:main',
+            'set_color_client = py_srvcli.set_color_client:main',
+            'clear_line_client = py_srvcli.clear_line_client:main',
+            'clear_line_service = py_srvcli.clear_line_service:main'
         ],
     },
 )

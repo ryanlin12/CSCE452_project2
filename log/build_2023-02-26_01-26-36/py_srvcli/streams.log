@@ -1,0 +1,35 @@
+[0.486s] Invoking command in '/home/ryanlin12/CSCE452_project2/src/py_srvcli': AMENT_PREFIX_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim LD_LIBRARY_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/py_srvcli/prefix_override:/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages:/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ryanlin12/CSCE452_project2/build/py_srvcli/build install --record /home/ryanlin12/CSCE452_project2/build/py_srvcli/install.log --single-version-externally-managed
+[0.666s] running egg_info
+[0.669s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.670s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.671s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.672s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.673s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.677s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.689s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.706s] running build
+[0.706s] running build_py
+[0.707s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.707s]   warnings.warn(
+[0.707s] copying py_srvcli/clear_line_service.py -> /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli
+[0.707s] copying py_srvcli/clear_line_client.py -> /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli
+[0.707s] copying py_srvcli/set_color_client.py -> /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli
+[0.707s] running install
+[0.707s] running install_lib
+[0.707s] copying /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli/clear_line_service.py -> /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.707s] copying /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli/clear_line_client.py -> /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.707s] copying /home/ryanlin12/CSCE452_project2/build/py_srvcli/build/lib/py_srvcli/set_color_client.py -> /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.707s] byte-compiling /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/clear_line_service.py to clear_line_service.cpython-310.pyc
+[0.707s] byte-compiling /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/clear_line_client.py to clear_line_client.cpython-310.pyc
+[0.707s] byte-compiling /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/set_color_client.py to set_color_client.cpython-310.pyc
+[0.707s] running install_data
+[0.707s] running install_egg_info
+[0.707s] removing '/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[0.707s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.707s] running install_scripts
+[0.716s] Installing clear_line_client script to /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli
+[0.716s] Installing clear_line_service script to /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli
+[0.717s] Installing set_color_client script to /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli
+[0.717s] Installing set_color_service script to /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli
+[0.718s] writing list of installed files to '/home/ryanlin12/CSCE452_project2/build/py_srvcli/install.log'
+[0.741s] Invoked command in '/home/ryanlin12/CSCE452_project2/src/py_srvcli' returned '0': AMENT_PREFIX_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim LD_LIBRARY_PATH=/home/ryanlin12/CSCE452_project2/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/py_srvcli/prefix_override:/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages:/home/ryanlin12/CSCE452_project2/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ryanlin12/CSCE452_project2/build/py_srvcli/build install --record /home/ryanlin12/CSCE452_project2/build/py_srvcli/install.log --single-version-externally-managed

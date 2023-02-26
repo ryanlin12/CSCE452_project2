@@ -1,9 +1,13 @@
-/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py
-/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/clear_line_service.py
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/clear_line_client.py
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/set_color_client.py
 /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py
-/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__pycache__/client_member_function.cpython-310.pyc
-/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__pycache__/service_member_function.cpython-310.pyc
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/set_color_service.py
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__pycache__/clear_line_service.cpython-310.pyc
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__pycache__/clear_line_client.cpython-310.pyc
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__pycache__/set_color_client.cpython-310.pyc
 /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__pycache__/__init__.cpython-310.pyc
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__pycache__/set_color_service.cpython-310.pyc
 /home/ryanlin12/CSCE452_project2/install/py_srvcli/share/ament_index/resource_index/packages/py_srvcli
 /home/ryanlin12/CSCE452_project2/install/py_srvcli/share/py_srvcli/package.xml
 /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info/SOURCES.txt
@@ -13,5 +17,7 @@
 /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info/zip-safe
 /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info/PKG-INFO
 /home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info/dependency_links.txt
-/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli/client
-/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli/service
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli/clear_line_client
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli/clear_line_service
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli/set_color_client
+/home/ryanlin12/CSCE452_project2/install/py_srvcli/lib/py_srvcli/set_color_service
