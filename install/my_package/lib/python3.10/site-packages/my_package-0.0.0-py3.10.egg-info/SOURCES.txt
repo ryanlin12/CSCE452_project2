@@ -9,6 +9,7 @@ setup.py
 ../../build/my_package/my_package.egg-info/top_level.txt
 ../../build/my_package/my_package.egg-info/zip-safe
 my_package/__init__.py
+my_package/a_mlogo.py
 my_package/my_node.py
 my_package/publisher_member_function.py
 my_package/subscriber_member_function.py

@@ -11,6 +11,7 @@ setup.py
 py_srvcli/__init__.py
 py_srvcli/clear_line_client.py
 py_srvcli/clear_line_service.py
+py_srvcli/set_backgrnd_col.py
 py_srvcli/set_color_client.py
 py_srvcli/set_color_service.py
 resource/py_srvcli

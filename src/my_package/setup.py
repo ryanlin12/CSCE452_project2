@@ -23,6 +23,7 @@ setup(
             'my_node = my_package.my_node:main',
             'talker = my_package.publisher_member_function:main',
             'listener = my_package.subscriber_member_function:main',
+            'a_mlogo = my_package.a_mlogo:main',
         ],
     },
 )

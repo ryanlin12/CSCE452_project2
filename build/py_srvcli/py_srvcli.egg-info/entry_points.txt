@@ -1,6 +1,7 @@
 [console_scripts]
 clear_line_client = py_srvcli.clear_line_client:main
 clear_line_service = py_srvcli.clear_line_service:main
+set_background_color = py_srvcli.set_backgrnd_col:main
 set_color_client = py_srvcli.set_color_client:main
 set_color_service = py_srvcli.set_color_service:main
 

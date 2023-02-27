@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 from std_srvs.srv import Empty
 
-
+#DONT NEED
 class MinimalService(Node):
 
     def __init__(self):
