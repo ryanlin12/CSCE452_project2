@@ -1,0 +1,35 @@
+[0.480s] Invoking command in '/home/ryanlin12/CSCE452_project2/src/my_package': PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/my_package/prefix_override:/home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ryanlin12/CSCE452_project2/build/my_package/build install --record /home/ryanlin12/CSCE452_project2/build/my_package/install.log --single-version-externally-managed
+[0.718s] running egg_info
+[0.729s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.730s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.731s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.732s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.732s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.736s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.737s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.738s] running build
+[0.738s] running build_py
+[0.738s] copying my_package/a_mlogo.py -> /home/ryanlin12/CSCE452_project2/build/my_package/build/lib/my_package
+[0.739s] running install
+[0.739s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.740s]   warnings.warn(
+[0.740s] running install_lib
+[0.741s] copying /home/ryanlin12/CSCE452_project2/build/my_package/build/lib/my_package/a_mlogo.py -> /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package
+[0.743s] byte-compiling /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package/final_attempt.py to final_attempt.cpython-310.pyc
+[0.743s]   File "/home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package/final_attempt.py", line 63
+[0.743s]     // wrap g_goal.theta to [-pi, pi)
+[0.744s]                                     ^
+[0.744s] SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
+[0.744s] 
+[0.744s] byte-compiling /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package/a_mlogo.py to a_mlogo.cpython-310.pyc
+[0.746s] running install_data
+[0.746s] running install_egg_info
+[0.749s] removing '/home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.751s] Copying ../../build/my_package/my_package.egg-info to /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.751s] running install_scripts
+[0.777s] Installing a_mlogo script to /home/ryanlin12/CSCE452_project2/install/my_package/lib/my_package
+[0.778s] Installing listener script to /home/ryanlin12/CSCE452_project2/install/my_package/lib/my_package
+[0.780s] Installing my_node script to /home/ryanlin12/CSCE452_project2/install/my_package/lib/my_package
+[0.781s] Installing talker script to /home/ryanlin12/CSCE452_project2/install/my_package/lib/my_package
+[0.793s] writing list of installed files to '/home/ryanlin12/CSCE452_project2/build/my_package/install.log'
+[0.842s] Invoked command in '/home/ryanlin12/CSCE452_project2/src/my_package' returned '0': PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/my_package/prefix_override:/home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ryanlin12/CSCE452_project2/build/my_package/build install --record /home/ryanlin12/CSCE452_project2/build/my_package/install.log --single-version-externally-managed

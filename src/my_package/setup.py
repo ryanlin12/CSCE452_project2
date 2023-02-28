@@ -24,6 +24,7 @@ setup(
             'talker = my_package.publisher_member_function:main',
             'listener = my_package.subscriber_member_function:main',
             'a_mlogo = my_package.a_mlogo:main',
+            'final = my_package.realfinalattempt:main'
         ],
     },
 )

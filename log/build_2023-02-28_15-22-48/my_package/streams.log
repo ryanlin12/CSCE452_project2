@@ -1,0 +1,36 @@
+[0.691s] Invoking command in '/home/ryanlin12/CSCE452_project2/src/my_package': PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/my_package/prefix_override:/home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ryanlin12/CSCE452_project2/build/my_package/build install --record /home/ryanlin12/CSCE452_project2/build/my_package/install.log --single-version-externally-managed
+[0.955s] running egg_info
+[0.955s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.955s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.955s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.955s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.955s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.956s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.957s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.957s] running build
+[0.957s] running build_py
+[0.958s] copying my_package/realfinalattempt.py -> /home/ryanlin12/CSCE452_project2/build/my_package/build/lib/my_package
+[0.958s] running install
+[0.958s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.959s]   warnings.warn(
+[0.959s] running install_lib
+[0.960s] copying /home/ryanlin12/CSCE452_project2/build/my_package/build/lib/my_package/realfinalattempt.py -> /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package
+[0.961s] byte-compiling /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package/final_attempt.py to final_attempt.cpython-310.pyc
+[0.961s] byte-compiling /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package/realfinalattempt.py to realfinalattempt.cpython-310.pyc
+[0.961s]   File "/home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package/final_attempt.py", line 63
+[0.961s]     // wrap g_goal.theta to [-pi, pi)
+[0.961s]                                     ^
+[0.961s] SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
+[0.961s] 
+[0.964s] running install_data
+[0.964s] running install_egg_info
+[0.966s] removing '/home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.967s] Copying ../../build/my_package/my_package.egg-info to /home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.967s] running install_scripts
+[0.994s] Installing a_mlogo script to /home/ryanlin12/CSCE452_project2/install/my_package/lib/my_package
+[0.994s] Installing final script to /home/ryanlin12/CSCE452_project2/install/my_package/lib/my_package
+[0.995s] Installing listener script to /home/ryanlin12/CSCE452_project2/install/my_package/lib/my_package
+[0.995s] Installing my_node script to /home/ryanlin12/CSCE452_project2/install/my_package/lib/my_package
+[0.995s] Installing talker script to /home/ryanlin12/CSCE452_project2/install/my_package/lib/my_package
+[0.995s] writing list of installed files to '/home/ryanlin12/CSCE452_project2/build/my_package/install.log'
+[1.017s] Invoked command in '/home/ryanlin12/CSCE452_project2/src/my_package' returned '0': PYTHONPATH=/home/ryanlin12/CSCE452_project2/build/my_package/prefix_override:/home/ryanlin12/CSCE452_project2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ryanlin12/CSCE452_project2/build/my_package/build install --record /home/ryanlin12/CSCE452_project2/build/my_package/install.log --single-version-externally-managed
